@@ -122,6 +122,10 @@ header{
 
 
 
+
+/* Main e prime tre sezioni uguali */
+
+
 .container{
     margin: 0;
     box-sizing: border-box;
@@ -203,16 +207,52 @@ header{
     justify-content: space-between;
 }
 
+
+/* Ultima sezione grande */
+
 .last-section{
     background-color: rgb(246, 246, 246);
-    height: 1000px;
+    height: 1400px;
     width: auto;
     padding: 50px 50px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.last-section h2{
+    margin-bottom: 70px;
+    font-size: 45px;
+}
+
+.last-section p{
+    font-size: 20px;
+    margin: 0 100px 0 100px;
+}
+
+.big-image{
+    height: auto;
+    width: 1000px;
+}
+
+.last-section h3{
+    font-size: 30px;
+    margin-top: 60px;
+}
+
+.button-last-section{
+    margin-top: 70px;
+    text-decoration: none;
+    background-color: rgb(114, 137, 218);
+    border-radius: 15px;
+    padding: 10px 15px;
+    margin-right: 30px; 
+    color: white;  
 }
 
 
+/* Footer */
 
 
 footer{
@@ -229,26 +269,82 @@ footer{
 }
 
 .main-column{
-    flex-basis: 30%;
-    background-color: lightcoral;
+    margin-left: 30px;
+    flex-basis: 25%;
+    /* background-color: lightcoral; */
 }
+
+.main-column h3{
+    font-size: 30px;
+    color: rgb(113, 137, 218);
+}
+
+.lingua{
+    margin-top: 20px;
+}
+
+.img-flag{
+    height: 15px;
+    width: auto;
+}
+
+.italiano{
+    margin-left: 5px;
+    color: white;
+}
+
+.triangle{
+    color: white;
+}
+
+.icons{
+    margin-top: 20px;
+    color: white;
+}
+
+i+i{
+    margin-left: 20px;
+}
+
 
 .main-menu{
     flex-basis: 70%;
-    background-color: lightseagreen;
+    /* background-color: lightseagreen; */
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
 }
+
+
+li{
+    list-style-type: none;
+    color:white
+}
+
+li+li{
+    margin-bottom: 10px;
+}
+
+
+.first-item-list{
+    color: rgb(113, 137, 218);
+    margin-bottom: 10px;
+
+}
+
+
 
 .footer-bottom{
     height: 40px;
     background-color: aquamarine;
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
 }
 
 .bottone{
     margin-right: 50px;
 }
+
 
 
