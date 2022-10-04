@@ -35,7 +35,7 @@ header{
 
 .logo-working{
     height: 80px;
-    margin-left: 70px;
+    margin-left: 75px;
 }
 
 .menu{
@@ -335,16 +335,37 @@ li+li{
 
 
 .footer-bottom{
+    margin-top: 25px;
     height: 40px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+}
+
+.footer-bottom.logo{
+    margin-left: 50px;
+    position:absolute;
+    height: 150px;
+}
+
+.logo-working2{
+    height: 80px;
+    margin-left: 75px;
+    margin-bottom: 30px;
 }
 
 .bottone{
-    margin-right: 50px;
+    margin-right: 60px;
+    background-color: white;
+    padding: 10px 10px;
+    border-radius: 30%;
+    display: inline-block;
+    text-align: center;
+    border: none;
 }
 
+.footer-bottom.logo-working{
+    margin-bottom: 25px;
+}
 
 
