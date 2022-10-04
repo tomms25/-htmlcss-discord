@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(37, 94, 233);
+    height: 500px;
+}
+
+
+.header-top{
+    height: 80px;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    margin-left: 50px;
+}
+
+.menu{
+    margin-left: 0;
+}
+
+.accedi{
+    margin-right: 50px;
+}
+
+.top-section-header{
+    background-color: white;
+    min-height: 30px;
+    width: 85%;
+    margin-top: 20px;
+}
+
+
+.header-text{
+    height: 300px;
+    margin: 100px 100px 100px 100px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+.container{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.study-group{
+    background-color: white;
+    height: 500px;
+    width: auto;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.colonna1{
+    background-color: bisque;
+    width: 60%;
+}
+
+.colonna2{
+    background-color: brown;
+    width: 40%;
+}
+
+.just-chillin{
+    background-color: rgb(246, 246, 246);
+    height: 500px;
+    width: auto;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fandom{
+    background-color: white;
+    height: 500px;
+    width: auto;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.last-section{
+    background-color: rgb(246, 246, 246);
+    height: 1000px;
+    width: auto;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+footer{
+    height: 500px;
+    background-color: rgb(35, 39, 42);
+}
+
+
+.footer-container{
+    display: flex;
+    margin: auto;
+    height: 400px;
+    padding: 60px 60px 80px 60px;
+}
+
+.main-column{
+    flex-basis: 30%;
+    background-color: lightcoral;
+}
+
+.main-menu{
+    flex-basis: 70%;
+    background-color: lightseagreen;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-bottom{
+    height: 40px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottone{
+    margin-right: 50px;
+}
+
+
